@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Build outputs
+/build
+/dist
+/.next
+
+# Backend binary
+backend/bitlean-api
+
+# Testing
+/coverage
+/.nyc_output
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
+
+# Service worker (generated)
+src/service-worker.js
+src/serviceWorkerRegistration.js
+
+# Other generated files
+src/reportWebVitals.js
+src/App.test.js
+src/setupTests.js
+src/logo.svg
+
+# Public assets (keep favicon, robots.txt)
+public/favicon.ico
+public/logo192.png
+public/logo512.png
