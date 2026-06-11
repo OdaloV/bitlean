@@ -1,8 +1,7 @@
-# BitLearn ⚡
+# BitLearn 
 
-Bitcoin education through interactive games — built for hackathons.
+Bitcoin education through interactive games 
 
-## What's inside
 
 ```
 bitlean/
@@ -28,31 +27,19 @@ bitlean/
 ### React frontend
 ```bash
 npm install
-npm start          # dev server on :3000
+npm start          
 ```
 
-### Go backend (optional — app works without it via localStorage)
+### Go backend 
 ```bash
 cd backend
-go run main.go     # API on :8080
+go run main.go     
 ```
 
 To connect them:
 ```bash
 echo "REACT_APP_API=http://localhost:8080" > .env
 npm start
-```
-
-## Deploy (free)
-
-```bash
-# Deploy frontend to Vercel
-npm install -g vercel
-vercel --prod
-
-# Or Netlify
-npm install -g netlify-cli
-netlify deploy --prod --dir=build
 ```
 
 ## Level content
@@ -73,4 +60,3 @@ netlify deploy --prod --dir=build
 - Hot vs cold wallets, custodial vs self-custody
 - Bitcoin and Africa (remittances, inflation hedge)
 
-All content is factually accurate and sourced from Bitcoin documentation and publicly verified statistics.
